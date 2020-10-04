@@ -1,0 +1,6 @@
+target/
+allure-results/
+credentials.txt
+*.iml
+.idea/
+

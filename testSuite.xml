@@ -1,0 +1,13 @@
+<suite name="Test-method Suite" >
+    <test name="SendMessageTest" group-by-instances="true">
+<!--Для запуска тестов необходимо указать логины и пароли существующих ящиков-->
+        <parameter name="login_1" value=""></parameter>
+        <parameter name="pass_1" value=""></parameter>
+        <parameter name="login_2" value=""></parameter>
+        <parameter name="pass_2" value=""></parameter>
+
+        <classes>
+            <class name="Tests.SendMessageTest" />
+        </classes>
+    </test>
+</suite>
